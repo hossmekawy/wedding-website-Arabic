@@ -8,7 +8,7 @@
 </div>
 
 <p align="center">
-  <img src="https://i.imgur.com/XYBkx8G.png" alt="Wedding Invitation Preview" width="300">
+  <img src="[https://i.imgur.com/XYBkx8G.png](https://i.pinimg.com/736x/55/f2/9b/55f29b595dbc0274ed369abc2dbbb218.jpg)" alt="Wedding Invitation Preview" width="300">
 </p>
 
 ## ✨ Live Demo
