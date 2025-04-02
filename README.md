@@ -63,7 +63,7 @@ function updateCountdown() {
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/hossmekawy/wedding-invitation-system.git
+   git clone https://github.com/hossmekawy/wedding-website-Arabic.git
    ```
 
 2. Open `index.html` in your browser or deploy to your favorite hosting service
