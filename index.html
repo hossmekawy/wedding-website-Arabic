@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دعوة زفاف جاسر & ميرنا</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@300;400;500;600;700&family=Noto+Naskh+Arabic:wght@400;500;600;700&family=Aref+Ruqaa+Ink:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        sage: '#D1D9CE',
+                        cream: '#F8F6F0',
+                        dustyRose: '#D8B4B4',
+                        taupe: '#B68973',
+                        charcoal: '#3A3A3A',
+                        gold: '#D4AF37'
+                    },
+                    fontFamily: {
+                        kufi: ['"Noto Kufi Arabic"', 'sans-serif'],
+                        naskh: ['"Noto Naskh Arabic"', 'serif'],
+                        aref: ['"Aref Ruqaa Ink"', 'serif']
+                    },
+                    boxShadow: {
+                        'soft': '0 10px 25px -5px rgba(0, 0, 0, 0.05)',
+                        'elegant': '0 10px 30px rgba(0, 0, 0, 0.08)'
+                    },
+                    animation: {
+                        'float': 'float 6s ease-in-out infinite',
+                        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite'
+                    },
+                    keyframes: {
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-10px)' }
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        
+        .animate-on-scroll.visible {
+            animation: fadeIn 0.8s forwards;
+        }
+        
+        .floral-border {
+            position: relative;
+        }
+        
+        .floral-border::before,
+        .floral-border::after {
+            content: '';
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            opacity: 0.7;
+        }
+        
+        .floral-border::before {
+            top: -20px;
+            left: -20px;
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="%23D8B4B4" d="M50,0 C60,20 80,30 100,30 C80,40 70,60 70,100 C60,80 40,70 0,70 C20,60 30,40 30,0 C40,20 45,30 50,0 Z"/></svg>');
+            transform: rotate(-45deg);
+        }
+        
+        .floral-border::after {
+            bottom: -20px;
+            right: -20px;
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="%23D8B4B4" d="M50,0 C60,20 80,30 100,30 C80,40 70,60 70,100 C60,80 40,70 0,70 C20,60 30,40 30,0 C40,20 45,30 50,0 Z"/></svg>');
+            transform: rotate(135deg);
+        }
+    </style>
+</head>
+<body class="bg-cream text-charcoal font-naskh">
+    <div class="max-w-md mx-auto px-4 py-8">
+        <!-- Hero Section -->
+        <section class="min-h-screen flex flex-col justify-center items-center text-center py-12 relative animate-on-scroll">
+            <div class="mb-8">
+                <h2 class="font-aref text-2xl text-dustyRose mb-2">بسم الله الرحمن الرحيم</h2>
+                <p class="font-kufi text-sm text-taupe">وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً</p>
+            </div>
+            
+            <div class="mb-8 floral-border p-4">
+                <div class="p-2 border-2 border-dustyRose/30 rounded-lg">
+                    <img src="https://i.pinimg.com/736x/55/f2/9b/55f29b595dbc0274ed369abc2dbbb218.jpg" 
+                         alt="جاسر & ميرنا" 
+                         class="w-64 h-64 object-cover rounded-lg mx-auto shadow-elegant">
+                </div>
+            </div>
+            
+            <div class="mb-6">
+                <h1 class="font-aref text-4xl mb-2">
+                    <span class="text-taupe">جاسر</span> 
+                    <span class="text-dustyRose">&</span> 
+                    <span class="text-taupe">ميرنا</span>
+                </h1>
+                <p class="font-kufi text-sm text-charcoal/70">يتشرفان بدعوتكم لحضور حفل زفافهما</p>
+            </div>
+            
+            <div class="w-32 h-0.5 bg-dustyRose/30 mb-6"></div>
+            
+            <div class="mb-10">
+                <p class="font-kufi text-lg text-dustyRose">الثلاثاء 8 فبراير 2025</p>
+            </div>
+            
+            <div class="absolute bottom-8 animate-bounce">
+                <i class="fas fa-chevron-down text-dustyRose/70"></i>
+            </div>
+        </section>
+        
+        <!-- Details Section -->
+        <section class="py-16 animate-on-scroll">
+            <h2 class="font-aref text-2xl text-taupe text-center mb-8">تفاصيل الحفل</h2>
+            
+            <div class="grid grid-cols-1 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow-soft border border-sage/50 text-center">
+                    <div class="w-12 h-12 bg-sage/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-calendar-day text-taupe"></i>
+                    </div>
+                    <h3 class="font-kufi text-lg text-taupe mb-2">الموعد</h3>
+                    <p class="text-charcoal/70">الثلاثاء 8 فبراير 2025</p>
+                    <p class="text-charcoal/70">٦:٠٠ مساءً</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-soft border border-sage/50 text-center">
+                    <div class="w-12 h-12 bg-sage/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-map-marker-alt text-taupe"></i>
+                    </div>
+                    <h3 class="font-kufi text-lg text-taupe mb-2">المكان</h3>
+                    <p class="text-charcoal/70">مجمع قاعات النورس</p>
+                    <p class="text-charcoal/70">قاعة سمرنا</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Countdown Section -->
+        <section class="py-16 animate-on-scroll">
+            <h2 class="font-aref text-2xl text-taupe text-center mb-8">باقي على الفرح</h2>
+            
+            <div class="grid grid-cols-2 gap-4" id="countdown">
+                <!-- Will be filled by JavaScript -->
+            </div>
+        </section>
+        
+        <!-- Message Section -->
+        <section class="py-16 animate-on-scroll">
+            <div class="bg-white p-8 rounded-lg shadow-soft border border-sage/50 text-center relative">
+                <div class="absolute -top-3 left-1/2 transform -translate-x-1/2">
+                    <div class="w-16 h-1 bg-dustyRose/50 rounded-full"></div>
+                </div>
+                
+                <p class="text-charcoal/80 leading-relaxed">
+                    بكل الحب والامتنان ندعوكم لمشاركتنا فرحة العمر
+                    <br>
+                    وجودكم سيزيد من سعادتنا في هذا اليوم المميز
+                </p>
+                
+                <div class="absolute -bottom-3 left-1/2 transform -translate-x-1/2">
+                    <div class="w-16 h-1 bg-dustyRose/50 rounded-full"></div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- RSVP Section -->
+        <section class="py-16 animate-on-scroll">
+            <h2 class="font-aref text-2xl text-taupe text-center mb-8">تأكيد الحضور</h2>
+            
+            <form class="bg-white p-6 rounded-lg shadow-soft border border-sage/50" id="rsvp-form">
+                <div class="mb-4">
+                    <label for="name" class="block font-kufi text-sm text-charcoal/80 mb-2">الاسم</label>
+                    <input type="text" id="name" required 
+                           class="w-full p-3 border border-sage/50 rounded-md bg-cream/50 focus:outline-none focus:ring-2 focus:ring-dustyRose/30">
+                </div>
+                
+                <div class="mb-4">
+                    <label for="phone" class="block font-kufi text-sm text-charcoal/80 mb-2">رقم الهاتف</label>
+                    <input type="tel" id="phone" required 
+                           class="w-full p-3 border border-sage/50 rounded-md bg-cream/50 focus:outline-none focus:ring-2 focus:ring-dustyRose/30">
+                </div>
+                
+                <div class="mb-4">
+                    <label class="block font-kufi text-sm text-charcoal/80 mb-2">هل ستحضر؟</label>
+                    <div class="flex gap-4 mt-2">
+                        <label class="flex items-center">
+                            <input type="radio" name="attendance" value="yes" checked class="ml-2"> نعم
+                        </label>
+                        <label class="flex items-center">
+                            <input type="radio" name="attendance" value="no" class="ml-2"> لا
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="mb-6">
+                    <label for="guests" class="block font-kufi text-sm text-charcoal/80 mb-2">عدد الضيوف</label>
+                    <select id="guests" 
+                            class="w-full p-3 border border-sage/50 rounded-md bg-cream/50 focus:outline-none focus:ring-2 focus:ring-dustyRose/30">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+                
+                <button type="submit" 
+                        class="w-full bg-dustyRose text-white py-3 px-4 rounded-md font-kufi transition-all duration-300 hover:bg-taupe focus:outline-none focus:ring-2 focus:ring-taupe/50">
+                    تأكيد الحضور
+                </button>
+            </form>
+        </section>
+        
+        <!-- Location Section -->
+        <section class="py-16 animate-on-scroll">
+            <h2 class="font-aref text-2xl text-taupe text-center mb-8">موقع الحفل</h2>
+            
+            <div class="bg-white p-2 rounded-lg shadow-soft border border-sage/50 overflow-hidden">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.789012345678!2d31.123456789012345!3d29.987654321098765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjnCsDU5JzE1LjYiTiAzMcKwMDcnMjQuNCJF!5e0!3m2!1sen!2seg!4v1234567890123!5m2!1sen!2seg" 
+                class="w-full h-64 border-none" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+    
+    <div class="mt-4 text-center">
+        <a href="https://goo.gl/maps/example" target="_blank" class="inline-flex items-center text-taupe hover:text-dustyRose transition-colors">
+            <i class="fas fa-directions ml-2"></i>
+            <span class="font-kufi text-sm">الاتجاهات للموقع</span>
+        </a>
+    </div>
+</section>
+
+<!-- QR Code Section -->
+<section class="py-16 animate-on-scroll">
+    <div class="bg-white p-6 rounded-lg shadow-soft border border-sage/50 text-center">
+        <h2 class="font-aref text-xl text-taupe mb-4">لمزيد من المعلومات</h2>
+        
+        <div class="bg-cream/50 p-4 rounded-md inline-block mb-4" id="qr-container">
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=انت مدعو للفرح/jaser-and-mirna&bgcolor=F8F6F0&color=D8B4B4" 
+                 alt="QR Code" 
+                 class="w-36 h-36" id="qr-code">
+        </div>
+        
+        <p class="text-sm text-charcoal/70 mb-6">امسح الكود للوصول إلى المزيد من التفاصيل</p>
+        
+        <button id="download-invitation" 
+                class="bg-taupe text-white py-3 px-6 rounded-md font-kufi text-sm transition-all duration-300 hover:bg-dustyRose focus:outline-none focus:ring-2 focus:ring-taupe/50 flex items-center mx-auto">
+            <i class="fas fa-download ml-2"></i>
+            تحميل الدعوة
+        </button>
+    </div>
+</section>
+
+
+<!-- Parents Section -->
+<section class="py-16 animate-on-scroll">
+    <div class="text-center">
+        <h2 class="font-aref text-2xl text-taupe mb-6">بحضور كريم من</h2>
+        
+        <div class="space-y-6">
+            <div>
+                <h3 class="font-kufi text-lg text-dustyRose mb-1">المهندس/ فتحي علي حسن</h3>
+                <p class="text-sm text-charcoal/70">والد العريس</p>
+            </div>
+            
+            <div class="w-16 h-0.5 bg-sage mx-auto"></div>
+            
+            <div>
+                <h3 class="font-kufi text-lg text-dustyRose mb-1">الدكتور/ أشرف ميشيل</h3>
+                <p class="text-sm text-charcoal/70">والد العروسة</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-8 text-center animate-on-scroll">
+    <div class="w-16 h-0.5 bg-dustyRose/30 mx-auto mb-4"></div>
+    
+    <p class="font-kufi text-sm text-charcoal/70 mb-2">نتشرف بحضوركم</p>
+    
+    <div class="text-dustyRose animate-pulse-slow">
+        <i class="fas fa-heart"></i>
+    </div>
+    <div class="mt-6 pt-4 border-t border-sage/30"></div>
+        <p class="text-xs text-charcoal/50">
+            Created by 
+            <a href="https://github.com/hossmekawy" target="_blank" class="text-taupe hover:text-dustyRose transition-colors">
+                Hussein El Mekawy dev
+            </a>
+            &copy; 2025
+        </p>
+    </div>
+</footer>
+</div>
+
+<script>
+// Animation on scroll
+const animatedElements = document.querySelectorAll('.animate-on-scroll');
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+        }
+    });
+}, { threshold: 0.1 });
+
+animatedElements.forEach(element => {
+    observer.observe(element);
+});
+
+// Make first section visible immediately
+document.addEventListener('DOMContentLoaded', function() {
+    const firstSection = document.querySelector('.animate-on-scroll');
+    if (firstSection) {
+        firstSection.classList.add('visible');
+    }
+});
+
+// Scroll down functionality
+document.querySelector('.animate-bounce').addEventListener('click', function() {
+    const secondSection = document.querySelectorAll('section')[1];
+    secondSection.scrollIntoView({ behavior: 'smooth' });
+});
+
+// Countdown Timer
+function updateCountdown() {
+    const weddingDate = new Date('april 8, 2025 18:00:00').getTime();
+    const now = new Date().getTime();
+    const distance = weddingDate - now;
+    
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    document.getElementById('countdown').innerHTML = `
+        <div class="bg-white p-4 rounded-lg shadow-soft border border-sage/50 text-center">
+            <div class="font-kufi text-3xl text-dustyRose mb-1">${days}</div>
+            <div class="text-xs text-charcoal/70">يوم</div>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow-soft border border-sage/50 text-center">
+            <div class="font-kufi text-3xl text-dustyRose mb-1">${hours}</div>
+            <div class="text-xs text-charcoal/70">ساعة</div>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow-soft border border-sage/50 text-center">
+            <div class="font-kufi text-3xl text-dustyRose mb-1">${minutes}</div>
+            <div class="text-xs text-charcoal/70">دقيقة</div>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow-soft border border-sage/50 text-center">
+            <div class="font-kufi text-3xl text-dustyRose mb-1">${seconds}</div>
+            <div class="text-xs text-charcoal/70">ثانية</div>
+        </div>
+    `;
+    
+    if (distance < 0) {
+        clearInterval(countdownInterval);
+        document.getElementById('countdown').innerHTML = `
+            <div class="col-span-2 bg-white p-6 rounded-lg shadow-soft border border-sage/50 text-center">
+                <div class="text-2xl mb-2">❤️</div>
+                <div class="font-kufi text-dustyRose">حان موعد الفرح!</div>
+            </div>
+        `;
+    }
+}
+
+updateCountdown();
+const countdownInterval = setInterval(updateCountdown, 1000);
+
+// RSVP Form Submission
+// RSVP Form Submission
+document.getElementById('rsvp-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    // Get form data
+    const name = document.getElementById('name').value;
+    const phone = document.getElementById('phone').value;
+    const attendance = document.querySelector('input[name="attendance"]:checked').value;
+    const guests = document.getElementById('guests').value;
+    
+    // Update QR code with personalized message
+    const qrCodeElement = document.getElementById('qr-code');
+    const personalizedMessage = `انت مدعو للفرح يا ${name}`;
+    qrCodeElement.src = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${encodeURIComponent(personalizedMessage)}&bgcolor=F8F6F0&color=D8B4B4`;
+    
+    // Store name for download functionality
+    window.guestName = name;
+    
+    // Show success message
+    this.innerHTML = `
+        <div class="text-center py-6">
+            <div class="w-16 h-16 bg-sage/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                <i class="fas fa-check text-taupe text-xl"></i>
+            </div>
+            <h3 class="font-kufi text-lg text-taupe mb-2">تم تأكيد حضورك</h3>
+            <p class="text-sm text-charcoal/70">شكراً لك ${name}، نتطلع لرؤيتك في يوم الفرح</p>
+            <p class="text-sm text-dustyRose mt-4">يمكنك الآن تحميل الدعوة الخاصة بك</p>
+        </div>
+    `;
+    
+    // Scroll to QR section
+    document.querySelectorAll('section')[6].scrollIntoView({ behavior: 'smooth' });
+});
+
+// Download invitation functionality
+document.getElementById('download-invitation').addEventListener('click', function() {
+    // Create a canvas element to combine the invitation elements
+    const canvas = document.createElement('canvas');
+    const ctx = canvas.getContext('2d');
+    
+    // Set canvas dimensions
+    canvas.width = 1080;
+    canvas.height = 1920;
+    
+    // Create a new image for the background
+    const background = new Image();
+    background.crossOrigin = "Anonymous";
+    
+    // Set background color
+    ctx.fillStyle = '#F8F6F0';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    
+    // Load the couple image
+    const coupleImage = new Image();
+    coupleImage.crossOrigin = "Anonymous";
+    coupleImage.src = "https://i.pinimg.com/736x/55/f2/9b/55f29b595dbc0274ed369abc2dbbb218.jpg";
+    
+    // Load the QR code
+    const qrCode = new Image();
+    qrCode.crossOrigin = "Anonymous";
+    qrCode.src = document.getElementById('qr-code').src;
+    
+    // Wait for images to load
+    Promise.all([
+        new Promise(resolve => coupleImage.onload = resolve),
+        new Promise(resolve => qrCode.onload = resolve)
+    ]).then(() => {
+        // Draw decorative elements
+        ctx.fillStyle = '#D8B4B4';
+        ctx.globalAlpha = 0.1;
+        for (let i = 0; i < 10; i++) {
+            const x = Math.random() * canvas.width;
+            const y = Math.random() * canvas.height;
+            const size = 50 + Math.random() * 100;
+            drawFlower(ctx, x, y, size);
+        }
+        ctx.globalAlpha = 1;
+        
+        // Draw header
+        ctx.fillStyle = '#3A3A3A';
+        ctx.font = 'bold 60px "Aref Ruqaa Ink"';
+        ctx.textAlign = 'center';
+        ctx.fillText('بسم الله الرحمن الرحيم', canvas.width/2, 150);
+        
+        // Draw Quran verse
+        ctx.font = '30px "Noto Kufi Arabic"';
+        ctx.fillStyle = '#B68973';
+        ctx.fillText('وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا', canvas.width/2, 220);
+        ctx.fillText('وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً', canvas.width/2, 270);
+        
+        // Draw couple image with border
+        const imageSize = 500;
+        const imageX = (canvas.width - imageSize) / 2;
+        const imageY = 350;
+        
+        // Draw image border
+        ctx.fillStyle = '#D8B4B4';
+        ctx.globalAlpha = 0.2;
+        ctx.fillRect(imageX - 10, imageY - 10, imageSize + 20, imageSize + 20);
+        ctx.globalAlpha = 1;
+        
+        // Draw image
+        ctx.drawImage(coupleImage, imageX, imageY, imageSize, imageSize);
+        
+        // Draw names
+        ctx.fillStyle = '#B68973';
+        ctx.font = 'bold 80px "Aref Ruqaa Ink"';
+        ctx.fillText('جاسر & ميرنا', canvas.width/2, 950);
+        
+        // Draw invitation text
+        ctx.fillStyle = '#3A3A3A';
+        ctx.font = '40px "Noto Kufi Arabic"';
+        ctx.fillText('يتشرفان بدعوتكم لحضور حفل زفافهما', canvas.width/2, 1020);
+        
+        // Draw date
+        ctx.fillStyle = '#D8B4B4';
+        ctx.font = 'bold 50px "Noto Kufi Arabic"';
+        ctx.fillText('الثلاثاء 8 فبراير 2025', canvas.width/2, 1100);
+        ctx.fillText('٦:٠٠ مساءً', canvas.width/2, 1160);
+        
+        // Draw location
+        ctx.fillStyle = '#3A3A3A';
+        ctx.font = '40px "Noto Kufi Arabic"';
+        ctx.fillText('مجمع قاعات النورس - قاعة سمرنا', canvas.width/2, 1240);
+        
+        // Draw personalized message
+        const guestName = window.guestName || 'الكريم';
+        ctx.fillStyle = '#B68973';
+        ctx.font = 'bold 45px "Aref Ruqaa Ink"';
+        ctx.fillText(`انت مدعو للفرح يا ${guestName}`, canvas.width/2, 1350);
+        
+        // Draw QR code
+        const qrSize = 250;
+        const qrX = (canvas.width - qrSize) / 2;
+        const qrY = 1450;
+        ctx.drawImage(qrCode, qrX, qrY, qrSize, qrSize);
+        
+        // Draw footer
+        ctx.fillStyle = '#3A3A3A';
+        ctx.font = '35px "Noto Kufi Arabic"';
+        ctx.fillText('نتشرف بحضوركم', canvas.width/2, 1800);
+        
+        // Convert canvas to image and trigger download
+        const dataURL = canvas.toDataURL('image/jpeg', 0.8);
+        const downloadLink = document.createElement('a');
+        downloadLink.href = dataURL;
+        downloadLink.download = `دعوة_زفاف_جاسر_وميرنا_${guestName || 'شخصية'}.jpg`;
+        downloadLink.click();
+        
+        // Show success message
+        const downloadBtn = document.getElementById('download-invitation');
+        const originalText = downloadBtn.innerHTML;
+        downloadBtn.innerHTML = '<i class="fas fa-check ml-2"></i> تم التحميل';
+        downloadBtn.classList.add('bg-green-600');
+        
+        setTimeout(() => {
+            downloadBtn.innerHTML = originalText;
+            downloadBtn.classList.remove('bg-green-600');
+        }, 3000);
+    });
+    
+    // Function to draw decorative flower
+    function drawFlower(ctx, x, y, size) {
+        const petals = 5;
+        const petalSize = size / 2;
+        
+        for (let i = 0; i < petals; i++) {
+            const angle = (i / petals) * Math.PI * 2;
+            const px = x + Math.cos(angle) * petalSize;
+            const py = y + Math.sin(angle) * petalSize;
+            
+            ctx.beginPath();
+            ctx.ellipse(px, py, size/4, size/6, angle, 0, Math.PI * 2);
+            ctx.fill();
+        }
+        
+        // Draw center
+        ctx.fillStyle = '#B68973';
+        ctx.beginPath();
+        ctx.arc(x, y, size/8, 0, Math.PI * 2);
+        ctx.fill();
+    }
+});
+
+</script>
+</body>
+</html>
